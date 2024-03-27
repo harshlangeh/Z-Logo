@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  background-image: linear-gradient(to right, #0084ff, #00ffb9);
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    background-image: linear-gradient(to right, #0084ff, #00ffb9);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title {
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title:hover {
+    transform: rotate(30deg);  
+  }
